@@ -189,3 +189,29 @@ console.log(k.split(" ").reverse());
 var m = "string is a string."
 console.log(m.split(" ").reverse().join(" "));
 console.log(m.split(" ").join(" "));
+
+
+ // palindrom 
+let num = "122"
+rev = num.split("").reverse().join("")
+console.log(num);
+console.log(rev);
+if (num == rev)
+ {
+     console.log( "yes");
+}
+else 
+{
+console.log("No");
+}
+
+//palindrome in a range
+for ( let i = 100;i<200;i++)
+{
+    let num=i.toString();
+    let rev= num.split("").reverse().join("")
+    if (num== rev)
+    {
+        console.log(i);
+    }
+}
