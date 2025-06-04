@@ -383,12 +383,50 @@
 // array.unshift(1000)
 // console.log(array);
 
+ // array methods using  functions
+
+// // push function
+// function Array(arr)
+// {
+//     arr.push(100)
+//     console.log(arr)
+// }
+// Array([10,20,30,40])
+
+// // pop function
+// function Array(arr)
+// {
+//     arr.pop()
+//     console.log(arr);
+// }
+// Array([20,30,50,40])
+
+// unshift function
+// function Arrya(arr)
+// {
+//     arr.unshift(10)
+//     console.log(arr);
+// }
+// Arrya([20,40,80,100])
+
+// // shift function
+// function Array(arr)
+// {
+//     arr.shift()
+//     console.log(arr); 
+// }
+// Array([30,60,90,120])
+
+
  // logical operators 
 //   var a = 10
 //   var b= 100
 //   console.log(a>b);
 //   console.log(b>a);
 //   console.log (a==b); 
+
+//=====================================================================================================================
+//=====================================================================================================================
 
 
 //  // palindrome 
@@ -479,4 +517,47 @@
     
 // }
 
-// prime number findig in range 
+// // prime number findig in range 
+//  let count =0
+// for(let i=100;i<=200;i++)
+// {
+//     let isprime = true
+   
+//     for (let j=2;j<=Math.sqrt(i);j++)
+
+//     {
+//         if(i%j==0)
+//         {
+//           isprime = false
+          
+//           break;
+//         }
+//     }
+//     if (isprime ==  true)
+//         {
+//             count++   
+//          console.log(i);
+//         }
+       
+// }
+// console.log(count);
+
+// // prime numbers in a range using counting method 
+// for (let i=10;i<=30;i++)
+// {
+//     var count =0
+//     for (let j=2;j<=Math.sqrt(i);j++)
+//     {
+//        if (i%j==0)
+//        {
+//         count++
+//         }
+//     }
+
+// if (count==0)
+// {
+//     console.log(i);
+    
+// }
+// }
+
