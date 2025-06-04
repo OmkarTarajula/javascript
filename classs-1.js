@@ -301,18 +301,18 @@
 // Join("omkar")
 // Join("satya")
 
-// // repeate
+// // repeat
 // var j="hello world"
 // console.log(j.repeat(10));
 
 // // function
-// function Repeate(a)
+// function Repeat(a)
 // {
 //     console.log(a.repeat(10));
 // }
-// Repeate("omkar")
-// Repeate("satya")
-
+// Repeat("omkar")
+// Repeat ("satya")
+ 
 
 // // substring
 // var r= "hello world"
@@ -361,25 +361,34 @@
 // }
 // Concat("omkar","satya")
 
-// array methods
- var array = [10,20,30,40,50]
-// in array if we want to remove a last element then we use "pop"
-array.pop()
-console.log(array);
 
-// if we want to remove the leading or starting element we use "shift"
-array.shift()
-console.log(array);
 
-// same to add an element at the end we use "push" . example--> push(10)
+// // array methods
 
-array.push(100)
-console.log(array);
+//  var array = [10,20,30,40,50]
+// // in array if we want to remove a last element then we use "pop"
+// array.pop()
+// console.log(array);
 
-// to add an element at the starting we use "unshift". example --> unshift(10)
-array.unshift(1000)
-console.log(array);
+// // if we want to remove the leading or starting element we use "shift"
+// array.shift()
+// console.log(array);
 
+// // same to add an element at the end we use "push" . example--> push(10)
+
+// array.push(100)
+// console.log(array);
+
+// // to add an element at the starting we use "unshift". example --> unshift(10)
+// array.unshift(1000)
+// console.log(array);
+
+ // logical operators 
+//   var a = 10
+//   var b= 100
+//   console.log(a>b);
+//   console.log(b>a);
+//   console.log (a==b); 
 
 
 //  // palindrome 
@@ -470,3 +479,4 @@ console.log(array);
     
 // }
 
+// prime number findig in range 
