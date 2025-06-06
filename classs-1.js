@@ -425,6 +425,8 @@
 //   console.log(b>a);
 //   console.log (a==b); 
 
+
+
 //=====================================================================================================================
 //=====================================================================================================================
 
@@ -475,6 +477,8 @@
 //    let result=num11[0]**3+num11[1]**3+num11[2]**3
 //    console.log(result);
 
+// armstrong number another approach
+  
 
 
 // // prime number finding
@@ -522,9 +526,7 @@
 // for(let i=100;i<=200;i++)
 // {
 //     let isprime = true
-   
-//     for (let j=2;j<=Math.sqrt(i);j++)
-
+//     for (let j=2;j<=Math.sqrt(i);j++) 
 //     {
 //         if(i%j==0)
 //         {
@@ -560,4 +562,17 @@
     
 // }
 // }
+
+// //  finding factors of a number
+// var a= 12
+//  let arr=[]
+// for (let i=1;i<=a;i++)
+// {
+//     if ( a%i==0)
+//     {
+//       arr.push(i)
+//     }   
+// }
+// console.log(arr);
+
 
