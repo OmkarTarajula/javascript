@@ -478,7 +478,8 @@
 //    console.log(result);
 
 // armstrong number another approach
-  
+ 
+
 
 
 // // prime number finding
@@ -529,7 +530,7 @@
 //     for (let j=2;j<=Math.sqrt(i);j++) 
 //     {
 //         if(i%j==0)
-//         {
+//         { 
 //           isprime = false
           
 //           break;
@@ -564,7 +565,7 @@
 // }
 
 // //  finding factors of a number
-// var a= 12
+// var a= 12 
 //  let arr=[]
 // for (let i=1;i<=a;i++)
 // {
@@ -574,5 +575,23 @@
 //     }   
 // }
 // console.log(arr);
+
+// //  array loop
+// var array =[1,2,3,4,5,6,7,8,9,10]
+// for (let i=0;i<array.length;i++)
+// {
+//     console.log(array[i]);
+// }
+// // do while loop 
+// var a= 1
+// var b= 100
+// do{
+//     console.log(a);
+//     a++
+// }
+// while(a<=b)
+// {
+//     console.log(a);
+// }
 
 
